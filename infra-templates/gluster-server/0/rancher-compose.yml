@@ -2,6 +2,7 @@
   version: 3.12.0-0
 
 version: "2"
+services:
   gluster-server:
     scale: 3
     retain_ip: true
