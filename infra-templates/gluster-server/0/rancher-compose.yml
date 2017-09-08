@@ -1,0 +1,13 @@
+.catalog:
+  version: 3.12.0-0
+
+version: "2"
+  gluster-server:
+    scale: 3
+    retain_ip: true
+    health_check:
+      port: 24007
+      interval: 5000
+      response_timeout: 3000
+      unhealthy_threshold: 2
+      healthy_threshold: 2
