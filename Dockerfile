@@ -9,6 +9,6 @@ RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys F7C73FCC930AC9F83B3
 
 ADD entry.sh /usr/local/bin/entry.sh
 
-ENTRYPOINT "/usr/local/bin/entry.sh"
+ENTRYPOINT ["/usr/local/bin/entry.sh"]
 CMD ["/usr/sbin/glusterd", "-N", "--log-file=/dev/stdout"]
 

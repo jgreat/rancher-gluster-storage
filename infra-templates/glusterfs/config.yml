@@ -1,4 +1,4 @@
-name: gluster-server
+name: glusterfs
 description: Gluster servicer with a default volume
 version: 3.12.0-0
 category: Storage

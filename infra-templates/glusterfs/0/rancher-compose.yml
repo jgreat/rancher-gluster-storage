@@ -3,7 +3,7 @@
 
 version: "2"
 services:
-  gluster-server:
+  server:
     scale: 3
     retain_ip: true
     health_check:
